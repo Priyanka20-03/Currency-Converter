@@ -1,0 +1,145 @@
+body{
+    background-image: url(jason-leung-SAYzxuS1O3M-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    font-family: 'Abril Fatface', cursive;
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 50px;
+}
+header{
+    background-image: url(roman-wimmers-pIzasX6MfO8-unsplash.jpg);
+    background-size: 2000px;
+    word-spacing: 0.10em;
+    background-repeat: no-repeat;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    font-family: fantasy;
+    margin: 0%;
+    padding: 20px;
+
+}
+.para{
+    font-family: cursive;
+    color:yellow;
+    font-size: 50px;
+    font-weight: bolder;
+    
+}
+.btn{
+    color: blue;
+    background-color:lightblue;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 20px 10px 10px;
+    display: flex;
+}
+.currency{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.currency select{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid black;
+    background: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+#amount-one{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid black;
+    background: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+.swap-rate{
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rate{
+    color: black;
+    font-size: 20px;
+    padding: 0px 14px
+}
+select:focus,input:focus,button:focus{
+    outline: 0;
+}
+#amount-two{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid black;
+    background: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+body {
+    background-color: rgb(20, 235, 206);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  .heading {
+    font-family: 'Pacifico', cursive;
+    margin: 35px auto 20px;
+    text-align: center;
+  }
+  
+  hr {
+    border-top: 2px solid rgb(130, 156, 17);
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 55px;
+  }
+  
+  .main {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #bcb3ba;
+    color: rgba(1, 3, 10, 0.993);
+  }
+  
+  label {
+    font-size: 20px;
+  }
+  
+  .btn {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #finalAmount {
+    font-family: 'Arial', sans-serif,cursive;
+    font-weight: bold;
+    color:black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 30px;
+    padding:2px;
+    margin:1%;
+    margin-right: 25%;
+    margin-left: 25%;
+    background: linear-gradient(rgb(53, 207, 102),rgb(120,100,53));
+  }
+  
